@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6DFB2B41C90166100012571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2B31C90166100012571 /* main.m */; };
+		D6DFB2B71C90166100012571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2B61C90166100012571 /* AppDelegate.m */; };
+		D6DFB2BA1C90166100012571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2B91C90166100012571 /* ViewController.m */; };
+		D6DFB2BD1C90166100012571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB2BB1C90166100012571 /* Main.storyboard */; };
+		D6DFB2BF1C90166100012571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB2BE1C90166100012571 /* Assets.xcassets */; };
+		D6DFB2C21C90166100012571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB2C01C90166100012571 /* LaunchScreen.storyboard */; };
+		D6DFB2CD1C90166100012571 /* QYHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2CC1C90166100012571 /* QYHomeTests.m */; };
+		D6DFB2D81C90166100012571 /* QYHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2D71C90166100012571 /* QYHomeUITests.m */; };
+		D6DFB2EF1C90167100012571 /* UIImageView+HOME.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2E81C90167100012571 /* UIImageView+HOME.m */; };
+		D6DFB2F01C90167100012571 /* UILabel+HOME.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2EA1C90167100012571 /* UILabel+HOME.m */; };
+		D6DFB2F11C90167100012571 /* UIView+HOME.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DFB2EC1C90167100012571 /* UIView+HOME.m */; };
+		D6DFB2F41C9016CC00012571 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = D6DFB2F31C9016CC00012571 /* 123.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6DFB2C91C90166100012571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DFB2A71C90166100012571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DFB2AE1C90166100012571;
+			remoteInfo = QYHome;
+		};
+		D6DFB2D41C90166100012571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DFB2A71C90166100012571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6DFB2AE1C90166100012571;
+			remoteInfo = QYHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6DFB2AF1C90166100012571 /* QYHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFB2B31C90166100012571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6DFB2B51C90166100012571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6DFB2B61C90166100012571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6DFB2B81C90166100012571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6DFB2B91C90166100012571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6DFB2BC1C90166100012571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6DFB2BE1C90166100012571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6DFB2C11C90166100012571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6DFB2C31C90166100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB2C81C90166100012571 /* QYHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFB2CC1C90166100012571 /* QYHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYHomeTests.m; sourceTree = "<group>"; };
+		D6DFB2CE1C90166100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB2D31C90166100012571 /* QYHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFB2D71C90166100012571 /* QYHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYHomeUITests.m; sourceTree = "<group>"; };
+		D6DFB2D91C90166100012571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DFB2E61C90167100012571 /* QYHOMEHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHOMEHeader.h; sourceTree = "<group>"; };
+		D6DFB2E71C90167100012571 /* UIImageView+HOME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HOME.h"; sourceTree = "<group>"; };
+		D6DFB2E81C90167100012571 /* UIImageView+HOME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HOME.m"; sourceTree = "<group>"; };
+		D6DFB2E91C90167100012571 /* UILabel+HOME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HOME.h"; sourceTree = "<group>"; };
+		D6DFB2EA1C90167100012571 /* UILabel+HOME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HOME.m"; sourceTree = "<group>"; };
+		D6DFB2EB1C90167100012571 /* UIView+HOME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HOME.h"; sourceTree = "<group>"; };
+		D6DFB2EC1C90167100012571 /* UIView+HOME.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HOME.m"; sourceTree = "<group>"; };
+		D6DFB2F31C9016CC00012571 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DFB2AC1C90166100012571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB2C51C90166100012571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB2D01C90166100012571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6DFB2A61C90166100012571 = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2B11C90166100012571 /* QYHome */,
+				D6DFB2CB1C90166100012571 /* QYHomeTests */,
+				D6DFB2D61C90166100012571 /* QYHomeUITests */,
+				D6DFB2B01C90166100012571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DFB2B01C90166100012571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2AF1C90166100012571 /* QYHome.app */,
+				D6DFB2C81C90166100012571 /* QYHomeTests.xctest */,
+				D6DFB2D31C90166100012571 /* QYHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DFB2B11C90166100012571 /* QYHome */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2F31C9016CC00012571 /* 123.png */,
+				D6DFB2B51C90166100012571 /* AppDelegate.h */,
+				D6DFB2B61C90166100012571 /* AppDelegate.m */,
+				D6DFB2B81C90166100012571 /* ViewController.h */,
+				D6DFB2B91C90166100012571 /* ViewController.m */,
+				D6DFB2BB1C90166100012571 /* Main.storyboard */,
+				D6DFB2E51C90167100012571 /* QYHOME */,
+				D6DFB2BE1C90166100012571 /* Assets.xcassets */,
+				D6DFB2C01C90166100012571 /* LaunchScreen.storyboard */,
+				D6DFB2C31C90166100012571 /* Info.plist */,
+				D6DFB2B21C90166100012571 /* Supporting Files */,
+			);
+			path = QYHome;
+			sourceTree = "<group>";
+		};
+		D6DFB2B21C90166100012571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2B31C90166100012571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6DFB2CB1C90166100012571 /* QYHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2CC1C90166100012571 /* QYHomeTests.m */,
+				D6DFB2CE1C90166100012571 /* Info.plist */,
+			);
+			path = QYHomeTests;
+			sourceTree = "<group>";
+		};
+		D6DFB2D61C90166100012571 /* QYHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2D71C90166100012571 /* QYHomeUITests.m */,
+				D6DFB2D91C90166100012571 /* Info.plist */,
+			);
+			path = QYHomeUITests;
+			sourceTree = "<group>";
+		};
+		D6DFB2E51C90167100012571 /* QYHOME */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFB2E61C90167100012571 /* QYHOMEHeader.h */,
+				D6DFB2E71C90167100012571 /* UIImageView+HOME.h */,
+				D6DFB2E81C90167100012571 /* UIImageView+HOME.m */,
+				D6DFB2E91C90167100012571 /* UILabel+HOME.h */,
+				D6DFB2EA1C90167100012571 /* UILabel+HOME.m */,
+				D6DFB2EB1C90167100012571 /* UIView+HOME.h */,
+				D6DFB2EC1C90167100012571 /* UIView+HOME.m */,
+			);
+			path = QYHOME;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DFB2AE1C90166100012571 /* QYHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DFB2DC1C90166100012571 /* Build configuration list for PBXNativeTarget "QYHome" */;
+			buildPhases = (
+				D6DFB2AB1C90166100012571 /* Sources */,
+				D6DFB2AC1C90166100012571 /* Frameworks */,
+				D6DFB2AD1C90166100012571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYHome;
+			productName = QYHome;
+			productReference = D6DFB2AF1C90166100012571 /* QYHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6DFB2C71C90166100012571 /* QYHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DFB2DF1C90166100012571 /* Build configuration list for PBXNativeTarget "QYHomeTests" */;
+			buildPhases = (
+				D6DFB2C41C90166100012571 /* Sources */,
+				D6DFB2C51C90166100012571 /* Frameworks */,
+				D6DFB2C61C90166100012571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DFB2CA1C90166100012571 /* PBXTargetDependency */,
+			);
+			name = QYHomeTests;
+			productName = QYHomeTests;
+			productReference = D6DFB2C81C90166100012571 /* QYHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6DFB2D21C90166100012571 /* QYHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DFB2E21C90166100012571 /* Build configuration list for PBXNativeTarget "QYHomeUITests" */;
+			buildPhases = (
+				D6DFB2CF1C90166100012571 /* Sources */,
+				D6DFB2D01C90166100012571 /* Frameworks */,
+				D6DFB2D11C90166100012571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6DFB2D51C90166100012571 /* PBXTargetDependency */,
+			);
+			name = QYHomeUITests;
+			productName = QYHomeUITests;
+			productReference = D6DFB2D31C90166100012571 /* QYHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DFB2A71C90166100012571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = guoqingyang;
+				TargetAttributes = {
+					D6DFB2AE1C90166100012571 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D6DFB2C71C90166100012571 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D6DFB2AE1C90166100012571;
+					};
+					D6DFB2D21C90166100012571 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D6DFB2AE1C90166100012571;
+					};
+				};
+			};
+			buildConfigurationList = D6DFB2AA1C90166100012571 /* Build configuration list for PBXProject "QYHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6DFB2A61C90166100012571;
+			productRefGroup = D6DFB2B01C90166100012571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DFB2AE1C90166100012571 /* QYHome */,
+				D6DFB2C71C90166100012571 /* QYHomeTests */,
+				D6DFB2D21C90166100012571 /* QYHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DFB2AD1C90166100012571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB2F41C9016CC00012571 /* 123.png in Resources */,
+				D6DFB2C21C90166100012571 /* LaunchScreen.storyboard in Resources */,
+				D6DFB2BF1C90166100012571 /* Assets.xcassets in Resources */,
+				D6DFB2BD1C90166100012571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB2C61C90166100012571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB2D11C90166100012571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DFB2AB1C90166100012571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB2BA1C90166100012571 /* ViewController.m in Sources */,
+				D6DFB2EF1C90167100012571 /* UIImageView+HOME.m in Sources */,
+				D6DFB2F01C90167100012571 /* UILabel+HOME.m in Sources */,
+				D6DFB2F11C90167100012571 /* UIView+HOME.m in Sources */,
+				D6DFB2B71C90166100012571 /* AppDelegate.m in Sources */,
+				D6DFB2B41C90166100012571 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB2C41C90166100012571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB2CD1C90166100012571 /* QYHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DFB2CF1C90166100012571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DFB2D81C90166100012571 /* QYHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6DFB2CA1C90166100012571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DFB2AE1C90166100012571 /* QYHome */;
+			targetProxy = D6DFB2C91C90166100012571 /* PBXContainerItemProxy */;
+		};
+		D6DFB2D51C90166100012571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6DFB2AE1C90166100012571 /* QYHome */;
+			targetProxy = D6DFB2D41C90166100012571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6DFB2BB1C90166100012571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DFB2BC1C90166100012571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6DFB2C01C90166100012571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6DFB2C11C90166100012571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6DFB2DA1C90166100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6DFB2DB1C90166100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6DFB2DD1C90166100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QYHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.QYHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6DFB2DE1C90166100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QYHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.QYHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6DFB2E01C90166100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QYHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.QYHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYHome.app/QYHome";
+			};
+			name = Debug;
+		};
+		D6DFB2E11C90166100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QYHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.QYHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYHome.app/QYHome";
+			};
+			name = Release;
+		};
+		D6DFB2E31C90166100012571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QYHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.QYHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QYHome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D6DFB2E41C90166100012571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QYHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuangworld.guoqingyang.QYHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QYHome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DFB2AA1C90166100012571 /* Build configuration list for PBXProject "QYHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2DA1C90166100012571 /* Debug */,
+				D6DFB2DB1C90166100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DFB2DC1C90166100012571 /* Build configuration list for PBXNativeTarget "QYHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2DD1C90166100012571 /* Debug */,
+				D6DFB2DE1C90166100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6DFB2DF1C90166100012571 /* Build configuration list for PBXNativeTarget "QYHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2E01C90166100012571 /* Debug */,
+				D6DFB2E11C90166100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6DFB2E21C90166100012571 /* Build configuration list for PBXNativeTarget "QYHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DFB2E31C90166100012571 /* Debug */,
+				D6DFB2E41C90166100012571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6DFB2A71C90166100012571 /* Project object */;
+}
